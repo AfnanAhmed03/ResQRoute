@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ambulanceList = document.getElementById('ambulance-list');
 
     // Fetch data from your mock JSON file
-    fetch('mock_data.json')
+    fetch('http://127.0.0.1:5000/api/dashboard-data')
         .then(response => response.json())
         .then(data => {
             renderHospitalStatus(data.hospitals[0]);
