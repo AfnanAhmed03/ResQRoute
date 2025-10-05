@@ -29,6 +29,21 @@ mock_data = {
       "id": "TN-07-R-4047",
       "eta_minutes": 19,
       "patient_details": "Trauma Injury, Female, 32"
+    },
+    {
+      "id": "TN-05-B-1121",
+      "eta_minutes": 8,
+      "patient_details": "Respiratory Distress, Male, 68"
+    },
+    {
+      "id": "TN-22-C-9870",
+      "eta_minutes": 25,
+      "patient_details": "Stroke, Female, 71"
+    },
+    {
+      "id": "TN-09-A-3030",
+      "eta_minutes": 15,
+      "patient_details": "Severe Burn, Male, 24"
     }
   ]
 }

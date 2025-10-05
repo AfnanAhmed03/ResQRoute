@@ -22,8 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderAmbulances(ambulances) {
         // Start the HTML string for the list
         let ambulanceHTML = '<h2>🚑 Incoming Ambulances</h2>';
-        
-        // Loop through each ambulance and add it to the HTML string
         ambulances.forEach(ambulance => {
             ambulanceHTML += `
                 <div class="ambulance-item">
@@ -32,8 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         });
-        
-        // Set the final HTML to the container
         ambulanceList.innerHTML = ambulanceHTML;
     }
 });
